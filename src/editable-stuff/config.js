@@ -129,7 +129,7 @@ const getInTouch = {
   message:
     "I'm currently looking for full-time Software Engineering op unities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "valensh1@yahoo.com",
-  phone: "562-417-2324",
+  phone: "562-417-2323",
   linkedIn: "https://www.linkedin.com/in/shaunvalentine/"
 };
 
