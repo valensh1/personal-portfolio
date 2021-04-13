@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "My name is Shaun Valentine. I recently graduated from General Assembly's Software Engineering bootcamp. I am extremely passionate about computers and learning new technologies that I left a succussful career behind as a C.P.A. to pursue this passion of mine. Software Engineering is an extemely difficult profession that continuously evolves and is not an overnight process. Realizing this, I diligently remain patient and continously hone my skillset daily to become the best Software Engineer version of myself.",
+    "My name is Shaun Valentine. I recently graduated from General Assembly's Software Engineering bootcamp. I am extremely passionate about computers and learning new technologies that I left a succussful career behind as a C.P.A. to pursue this passion of mine. Software Engineering is an extemely difficult profession that continuously evolves and is not an overnight process. Realizing this, I diligently remain patient and continuously hone my skillset daily to become the best Software Engineer version of myself.",
   resume: "https://drive.google.com/file/d/1aYNoD1MvQJ9i5UZC3sRfF_1p-Lo2PzjH/view?usp=sharing",
 };
 
