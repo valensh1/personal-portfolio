@@ -159,7 +159,18 @@ code {
 }
 #react-icon {
   font-size: 6vw;
+
 }
+
+h6 {
+  font-size: .8vw; //Added This
+}
+
+#react-h6 { // Added This
+  position: relative;
+  left: 1vw;
+}
+
 #ruby-rails-icon {
   margin-left: 1vw;
   height: 3vw;
@@ -208,6 +219,11 @@ code {
     font-size: 1.5vw;
   }
  
+}
+
+.skill-label {
+  position: relative;
+  left: 1.5vw;
 }
 
 

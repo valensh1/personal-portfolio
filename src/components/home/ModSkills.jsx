@@ -6,11 +6,23 @@ const ModSkills = () => {
          <h2 className="display-4 text-center">Skills</h2>
          <p className="text-center mt-4">Constantly looking to add new technologies to my tool box and continuously honing my skills to master my craft everyday</p>
         <div className="skills-section d-flex align-items-center flex-wrap justify-content-center mt-5">
+            <div className="justify-content-center align-items-center">
              <i className="massive html5 red icon col-2" id="html-icon"></i>
+             <h6 className="justify-content-center align-items-center ml-4">HTML</h6>
+             </div>
+             <div className="ml-5">
              <i className="massive css3 blue icon col-2" id="css-icon"></i>
+             <h6 className="justify-content-center align-items-center ml-4">CSS</h6>
+             </div>
+             <div className="ml-5">
              <i className="massive js yellow icon col-2" id="javascript-icon"></i>
+             <h6 className="justify-content-center align-items-center ml-3">Javascript</h6>
+             </div>
              <i className="massive node green icon col-2" id="nodejs-icon"></i>
+             <div className="react-div">
              <i className="massive react teal icon" id="react-icon"></i>
+             <h6 id="react-h6" className="justify-content-center align-items-center ml-3 react-h6">React</h6>
+             </div>
              <img className="skills-icons col-2" id="mongoDB-icon" src="https://i.imgur.com/xUZQnJs.png"></img>
              <img className="skills-icons col-2" id="jquery-icon" src="https://icon-library.com/images/jquery-icon-png/jquery-icon-png-7.jpg"></img>
              <img className="skills-icons col-2" id="ruby-icon" src="https://i.imgur.com/cOU8gmt.png"></img>

@@ -68,8 +68,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "valensh1", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0, // This is a number
+  specificRepos: ['Stock-Site', 'Wall-Street-Game'], // This is blank if showing a number
 };
 
 // Leadership SECTION
