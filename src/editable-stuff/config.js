@@ -49,6 +49,11 @@ const mainBody = {
 //     i.e resume: require("../editable-stuff/resume.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
+//! git add -A
+//! git commit -m"Commit message"
+//! git push origin master - this will push to git
+//! git push heroku master - it will ask for username and then password. Password is the API key which you can get by logging in to heroku and going to settings and then finding your API key and pasting it when VS Code asks for your password.
+
 const about = {
   show: true,
   heading: 'About Me',
