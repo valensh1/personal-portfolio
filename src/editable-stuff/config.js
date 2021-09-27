@@ -5,16 +5,16 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #097915, #ecf0f1",
-  firstName: "Shaun",
-  middleName: "",
-  lastName: "Valentine",
+  gradientColors: '#4484ce, #1ad7c0, #ff9b11, #9b59b6, #097915, #ecf0f1',
+  firstName: 'Shaun',
+  middleName: '',
+  lastName: 'Valentine',
   // jobTitle: 'Software Engineer',
-  message: " Changing the world with technology by working smarter not harder.",
+  message: ' Changing the world with technology by working smarter not harder.',
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/valensh1",
+      image: 'fa-github',
+      url: 'https://github.com/valensh1',
     },
     // {
     //   image: "fa-facebook",
@@ -25,8 +25,8 @@ const mainBody = {
     //   url: "https://www.instagram.com/hashirshoaeb/",
     // },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/shaunvalentine/",
+      image: 'fa-linkedin',
+      url: 'https://www.linkedin.com/in/shaunvalentine/',
     },
     // {
     //   image: "fa-twitter",
@@ -51,12 +51,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
-  imageLink: require("../editable-stuff/profile.png"),
+  heading: 'About Me',
+  imageLink: require('../editable-stuff/profile.png'),
   imageSize: 375,
   message:
-    "My name is Shaun Valentine. I recently graduated from General Assembly's Software Engineering boot camp. I am a Software Engineer who enjoys getting greasy under the hood and thinking outside the box to tackle real-world problems with results that not only work today but well into the future. Through my ability to problem-solve and meticulous attention to detail combined with a creative mindset I am driven to enhance and create new products and features that drive business profitability."
-  resume: "https://1drv.ms/w/s!Ar1gaMspqX1Cg9Q_joDIsuHvp2mXrA?e=J8aDAC",
+    "My name is Shaun Valentine. I recently graduated from General Assembly's Software Engineering boot camp. I am a Software Engineer who enjoys getting greasy under the hood and thinking outside the box to tackle real-world problems with results that not only work today but well into the future. Through my ability to problem-solve and meticulous attention to detail combined with a creative mindset I am driven to enhance and create new products and features that drive business profitability.",
+  resume: 'https://1drv.ms/w/s!Ar1gaMspqX1Cg9Q_joDIsuHvp2mXrA?e=J8aDAC',
 };
 
 // PROJECTS SECTION
@@ -66,76 +66,76 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "valensh1", //i.e."johnDoe12Gh"
+  heading: 'Recent Projects',
+  gitHubUsername: 'valensh1', //i.e."johnDoe12Gh"
   reposLength: 0, // This is a number
-  specificRepos: ['Stock-Site', 'Wall-Street-Game','Mapty'], // This is blank if showing a number
+  specificRepos: ['Stock-Site', 'Wall-Street-Game', 'Mapty'], // This is blank if showing a number
 };
 
 // Leadership SECTION
 const leadership = {
   show: false,
-  heading: "Leadership",
+  heading: 'Leadership',
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.',
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require('../editable-stuff/hashirshoaeb.png'),
+      label: 'First slide label',
+      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require('../editable-stuff/hashirshoaeb.png'),
+      label: 'Second slide label',
+      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
-  }
+    width: '615',
+    height: '450',
+  },
 };
 
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: 'Skills',
   hardSkills: [
-    { name: "HTML/CSS", value: 80 },
-    { name: "Javascript", value: 80 },
-    { name: "React", value: 75 },
-    { name: "Express", value: 70 },
-    { name: "MongoDB", value: 90 },
-    { name: "SQL", value: 65 },
-    { name: "Bootstrap", value: 55 },
-    { name: "Ruby/Ruby on Rails", value: 80 },
+    { name: 'HTML/CSS', value: 80 },
+    { name: 'Javascript', value: 80 },
+    { name: 'React', value: 75 },
+    { name: 'Express', value: 70 },
+    { name: 'MongoDB', value: 90 },
+    { name: 'SQL', value: 65 },
+    { name: 'Bootstrap', value: 55 },
+    { name: 'Ruby/Ruby on Rails', value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: 'Goal-Oriented', value: 80 },
+    { name: 'Collaboration', value: 90 },
+    { name: 'Positivity', value: 75 },
+    { name: 'Adaptability', value: 85 },
+    { name: 'Problem Solving', value: 75 },
+    { name: 'Empathy', value: 90 },
+    { name: 'Organization', value: 70 },
+    { name: 'Creativity', value: 90 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Contact",
+  heading: 'Contact',
   message:
     "I'm currently looking for full-time Software Engineering op unities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "valensh1@yahoo.com",
-  phone: "562-417-2323",
-  linkedIn: "https://www.linkedin.com/in/shaunvalentine/"
+  email: 'valensh1@yahoo.com',
+  phone: '562-417-2323',
+  linkedIn: 'https://www.linkedin.com/in/shaunvalentine/',
 };
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: 'Experiences',
   data: [
     {
       role: 'Software Engineer - General Assembly',
@@ -147,12 +147,21 @@ const experiences = {
       companylogo: require('../assets/img/auction.png'),
       date: 'Dec 2013 – Jul 2020',
     },
-  ]
-}
+  ],
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  skills,
+  leadership,
+  getInTouch,
+  experiences,
+};
